@@ -1,5 +1,11 @@
 # Fonction calculate_average
- 
+def calculate_average(numbers) :
+    total = sum(numbers)
+    length = len(numbers)
+    average = total / length
+    
+    return average
+
 # Exemple d'utilisation de la fonction
 numbers = [10, 20, 30, 40, 50]
 average = calculate_average(numbers)
